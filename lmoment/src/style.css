@@ -1,0 +1,31 @@
+body {
+  font-family: 'Evolventa', sans-serif;
+}
+
+@font-face {
+  font-family: 'Evolventa';
+  src: url('@/assets/fonts/Evolventa-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Evolventa';
+  src: url('@/assets/fonts/Evolventa-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Evolventa';
+  src: url('@/assets/fonts/Evolventa-Oblique.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Evolventa';
+  src: url('@/assets/fonts/Evolventa-BoldOblique.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
