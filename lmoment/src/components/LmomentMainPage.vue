@@ -17,7 +17,9 @@
         <div class="circle-center">
           <img src="@/assets/person.png" class="circle-image" alt="meditation" />
         </div>
-  
+
+        
+        <!-- test  -->
         <!-- Контроль плеера -->
         <div class="controls">
           <span>1:14</span>
