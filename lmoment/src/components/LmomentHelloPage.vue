@@ -61,9 +61,7 @@
 .phone-wrapper {
   position: relative;
   width: 100%;
-  max-width: 430px;
-  margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   background: black;
 }
@@ -84,8 +82,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
+  width: 48px;
+  height: 48px;
+
+  margin-bottom: 30px;
 }
 
 .pause-icon {
@@ -161,7 +161,7 @@
 .content {
   position: relative;
   z-index: 2;
-  height: 100%;
+  min-height: 95vh;
   padding: 20px 16px;
   display: flex;
   flex-direction: column;
@@ -246,6 +246,7 @@
   margin-bottom: 20px;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 /* Адаптация для маленьких экранов */
@@ -273,8 +274,7 @@
 @media (min-width: 768px) {
   .phone-wrapper {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-    border-radius: 40px;
-    margin: 20px auto;
+    /* border-radius: 40px; */
   }
 }
 </style>

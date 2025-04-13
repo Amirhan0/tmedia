@@ -1,10 +1,19 @@
 <script setup>
-// import LmomentHello from './components/LmomentHelloPage.vue'
-import LmomentMain from './components/LmomentMainPage.vue'
+import LmomentHello from './components/LmomentHelloPage.vue'
+// import LmomentMain from './components/LmomentMainPage.vue'
 </script>
 
 <template>
- <!-- <LmomentHello /> -->
- <LmomentMain />
+ <LmomentHello />
+ <!-- <LmomentMain /> -->
 </template>
+
+<style>
+    #app {
+        margin: 0;
+    }
+    * {
+        margin: 0;
+    }
+</style>
 
