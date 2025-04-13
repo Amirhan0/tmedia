@@ -1,19 +1,16 @@
 <script setup>
-import LmomentHello from './components/LmomentHelloPage.vue'
-// import LmomentMain from './components/LmomentMainPage.vue'
+// пусто
 </script>
 
 <template>
- <LmomentHello />
- <!-- <LmomentMain /> -->
+  <router-view />
 </template>
 
 <style>
-    #app {
-        margin: 0;
-    }
-    * {
-        margin: 0;
-    }
+#app {
+  margin: 0;
+}
+* {
+  margin: 0;
+}
 </style>
-
